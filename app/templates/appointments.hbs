@@ -1,0 +1,32 @@
+
+<header class="header">
+  <h1>List of appointments</h1>
+  <p>These are the doggies that yee shal be expectin'</p>
+</header>
+
+
+
+<main class="card card--light">
+  <h3 class="border">{{model.question}}</h3>
+  <div class="border">
+    <div class="grid group">
+
+      <div class="card-content grid-box grid-box--3of5">
+          
+          {{#each model as |appointment|}}
+
+            {{#link-to 'appointments.appointment' appointment tagName='li'}}{{appointment.ownerName}}{{/link-to}}
+
+          {{/each}}
+
+      </div>
+
+      <div class="grid-box grid-box--2of5">
+        {{outlet}}
+      </div>
+    </div>
+  </div>
+
+</main>
+
+

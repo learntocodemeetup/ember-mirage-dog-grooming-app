@@ -1,0 +1,61 @@
+<header class="header">
+  <h2>Appointments</h2>
+  <p>Use the form below to book your dog groom.</p>
+</header>
+
+<main class="card card--light">
+<form class="form" {{action "createAppointment" model on="submit"}}>
+    <fieldset class="form-field">
+      
+      <label class="form-label">Your Name:</label>
+      {{input value=model.ownerName class="form-input" placeholder="First and last thanks" type="text"}}
+
+    </fieldset>
+
+    <fieldset class="form-field">
+
+      <label class="form-label">What suburb are you in?</label>
+      {{input value=model.suburb class="form-input" placeholder="Just for marketing purposes, you know?" type="text"}}
+
+    </fieldset>
+    
+    <fieldset class="form-field">
+
+      <label class="form-label">Dog's name</label>
+      {{input value=model.dogName class="form-input" placeholder="Just the first will do" type="text"}}
+    
+    </fieldset>
+
+    <fieldset class="form-field">
+
+      <label class="form-label">Dog's breed</label>
+      {{input value=model.dogBreed class="form-input" placeholder="You know, Doberman, Maltese, Big Dog, Little Dog..." type="text"}}
+
+    </fieldset>
+
+    <fieldset class="form-field">
+
+      <label class="form-label">How big is your dog?</label>
+      {{input value=model.dogSize class="form-input" placeholder="Extra Small, Small, Medium, Large, Extra Large" type="text"}}
+
+    </fieldset>
+
+    <fieldset class="form-field">
+
+      <label class="form-label">When would you like to book your appointment?</label>
+      {{input value=model.appointmentTime class="form-input" placeholder="We currently have a very strict date formatting preference" type="text"}}
+  
+      <p style='margin-top: 10px;'>i.e 2016-04-01T07:31:43</p>
+
+    </fieldset>  
+
+    <button class="btn btn--primary btn--form">Make appointment!</button>
+  </form>
+</main>
+
+<footer class="footer">
+  <p>Thanks for living life on the edge and entrusting your dog to us! We hope you don't regret it!</p>
+
+  <img class="dog-image" src='assets/images/bailey.png'>
+  <img class="dog-image" src='assets/images/angel.png'>
+</footer>
