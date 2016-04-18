@@ -2,6 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   
+<<<<<<< HEAD
+=======
+  
+
+>>>>>>> ed13648cb7dc43b07262c6c877a282dc90987058
   actions: {
     createAppointment(appointment) {
 
@@ -14,6 +19,7 @@ export default Ember.Route.extend({
         dogSize: appointment.dogSize
       });
       
+<<<<<<< HEAD
       var self = this;
 
       // When you do record.save it sends a post request to /api/appointments
@@ -26,6 +32,11 @@ export default Ember.Route.extend({
       // POST /api/appointments with the object 
 
       
+=======
+      record.save();
+
+      this.transitionTo('appointments.appointment', appointment);
+>>>>>>> ed13648cb7dc43b07262c6c877a282dc90987058
 
     },
 
@@ -35,4 +46,8 @@ export default Ember.Route.extend({
     return {};
   }
 
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> ed13648cb7dc43b07262c6c877a282dc90987058
