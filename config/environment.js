@@ -13,7 +13,7 @@ module.exports = function(environment) {
     },
 
     contentSecurityPolicy: {
-     'connect-src' : "'self' http://localhost:300"
+     'connect-src' : "'self' http://localhost:3000"
     },
 
     EmberENV: {
