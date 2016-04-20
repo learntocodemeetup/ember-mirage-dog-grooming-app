@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -427,8 +427,7 @@ th {
   padding: 0;
 }
 
-=======
->>>>>>> ed13648cb7dc43b07262c6c877a282dc90987058
+
 /*************************************************
 *
 *   Wilderness Safety Quiz Stylesheet
@@ -448,7 +447,6 @@ th {
 *
 *************************************************/
 
-@import url('reset.css');
 
 /*-----------------------------------------------
 *   Base
@@ -915,7 +913,4 @@ p {
   border-left: 2px solid #c1beb8;
   text-align: right;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ed13648cb7dc43b07262c6c877a282dc90987058

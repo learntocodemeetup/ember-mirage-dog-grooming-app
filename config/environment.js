@@ -2,8 +2,8 @@
 
 module.exports = function(environment) {
   var ENV = {
-<<<<<<< HEAD
-    modulePrefix: 'ember-mirage-grooming',
+
+    modulePrefix: 'grooming-mirage',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
@@ -16,12 +16,6 @@ module.exports = function(environment) {
      'connect-src' : "'self' http://localhost:300"
     },
 
-=======
-    modulePrefix: 'grooming-mirage',
-    environment: environment,
-    baseURL: '/',
-    locationType: 'auto',
->>>>>>> ed13648cb7dc43b07262c6c877a282dc90987058
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

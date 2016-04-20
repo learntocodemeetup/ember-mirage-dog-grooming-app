@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "ember-mirage-grooming",
-=======
   "name": "grooming-mirage",
->>>>>>> ed13648cb7dc43b07262c6c877a282dc90987058
   "dependencies": {
     "ember": "~2.4.1",
     "ember-cli-shims": "0.1.0",
